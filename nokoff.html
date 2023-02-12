@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOK-OFF Shopping Platform</title>
+</head>
+<link rel="stylesheet" href="nokoff.css">
+<body>
+    <main class="main_box">
+        <div class="dflex" style="position:sticky; top:0; background-color:rgb(106, 217, 245); height:40px; align-items: center; padding: 20px;" >
+            <div style="font-weight:bold; font-size:large;" id="fbasis">NOK-OFF</div> 
+            
+            <div class="cart"> <a href="cart.html"><ion-icon name="basket"></ion-icon>Cart</a><span>0</span></div>
+        </div>
+    
+        <div class="dflex" style="background-color: rgb(255, 255, 255);">
+                <div style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                    <h1 style="padding-top: 200px; color: black; font-size: 76px; ">Welcome to NOK-OFF</h1>
+                    <p style="color: rgb(10, 10, 10);">We take pride in offering our customers quality and affordable products.
+                        <br> <br> Go ahead and fill your cart with confidence.
+                    </p>
+                </div>
+                <div>
+                    <img src="cart.gif" alt="image of a cart" class="cart_image">
+                </div>
+        </div>
+
+        <div class="container"> 
+            <h3 style="text-align: center; color: black; font-size: 48px; background-color: rgb(106, 217, 245);">Our Products</h3>
+
+            <div class="dflex" style="padding: 50px; padding-left: 100px; padding-right: 100px; text-align: center;">
+                <div class="image">
+                    <img src="basketball.png" alt="image of a baskeball" class="product_image">
+                    <h3>Baskeball</h3>
+                    <h3>$50</h3>
+                    <button id="add"><a class="add-cart cart1" href="#">Add to Cart</a></button>
+                    <input type="hidden" value="5" />     
+                </div>
+
+                <div class="image">
+                    <img src="laptop.png" alt="image of a laptop" class="product_image">
+                    <h3>Laptop</h3>
+                    <h3>$350</h3>
+                    <button id="add"><a class="add-cart cart2" href="#">Add to Cart</a></button>
+                    <input type="hidden" value="35" /> 
+                </div>
+
+                <div class="image">
+                    <img src="game.png" alt="image of a game" class="product_image">
+                    <h3>Game</h3>
+                    <h3>$100</h3>
+                    <button id="add"><a class="add-cart cart3" href="#">Add to Cart</a></button>
+                    <input type="hidden" value="10" /> 
+                </div>
+            </div>
+
+            <div class="dflex" style="padding: 50px; padding-left: 100px; padding-right: 100px; text-align: center;">
+                <div class="image">
+                    <img src="shirt.png" alt="image of a shirt" class="product_image">
+                    <h3>Shirt</h3>
+                    <h3>$70</h3>
+                    <button id="add"><a class="add-cart cart4" href="#">Add to Cart</a></button>
+                    <input type="hidden" value="7" /> 
+                </div>
+
+                <div class="image">
+                    <img src="phone.png" alt="image of an Phone" class="product_image">
+                    <h3>Phone</h3>
+                    <h3>$230</h3>
+                    <button id="add"><a class="add-cart cart5" href="#">Add to Cart</a></button>
+                    <input type="hidden" value="23" /> 
+                </div>
+
+                <div class="image">
+                    <img src="camera.png" alt="image of a camera" class="product__image">
+                    <h3>Camera</h3>
+                    <h3>$210</h3>
+                    <button id="add"><a class="add-cart cart6" href="#">Add to Cart</a></button>
+                    <input type="hidden" value="21" /> 
+                </div>
+            </div>
+        </div>
+
+        <div class="dflex" style="padding: 40px; background-color: rgb(106, 217, 245);">
+            <div style="font-weight:bold; font-size:large;" id="fbasis">NOK-OFF</div> 
+            <div> <a href="cart.html">CART</a></div> 
+        </div>
+    </main>
+
+    <script src="nokoff.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
